@@ -108,7 +108,7 @@
             android:textColor="@color/black"
             android:textSize="20dp"
             app:layout_constraintStart_toEndOf="@+id/eight"
-            app:layout_constraintTop_toBottomOf="@+id/clear" />
+            app:layout_constraintTop_toBottomOf="@+id/remove" />
 
         <Button
             android:id="@+id/two"
@@ -234,7 +234,6 @@
             android:layout_marginTop="332dp"
             android:gravity="center|right"
             android:paddingRight="10dp"
-            android:text="36"
             android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -248,7 +247,6 @@
             android:layout_height="50dp"
             android:gravity="center|right"
             android:paddingRight="10dp"
-            android:text="12 x 3"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -290,7 +288,7 @@
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/clear"
+            app:layout_constraintStart_toEndOf="@+id/remove"
             app:layout_constraintTop_toBottomOf="@+id/input" />
 
         <Button
@@ -309,7 +307,7 @@
             app:layout_constraintTop_toBottomOf="@+id/chia" />
 
         <ImageButton
-            android:id="@+id/clear"
+            android:id="@+id/remove"
             android:layout_width="105dp"
             android:layout_height="48dp"
             android:background="#DCDCDC"
