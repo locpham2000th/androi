@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Navigation Drawer</string>
+    <string name="nav_header_subtitle">locpham2000th@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Máy tính</string>
+    <string name="menu_gallery">Đổi cơ số</string>
+    <string name="menu_slideshow">Chuyển đơn vị</string>
+</resources>

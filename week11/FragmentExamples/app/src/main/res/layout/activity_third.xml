@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/button_add_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_layout"
+        android:layout_width="409dp"
+        android:layout_height="681dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_pop_fragment">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_add_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add red"
+        app:layout_constraintStart_toEndOf="@+id/button_add_blue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_replace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="replace_red"
+        app:layout_constraintStart_toEndOf="@+id/button_add_red"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_pop_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pop red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_add_blue" />
+
+    <Button
+        android:id="@+id/button_remove_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove red"
+        app:layout_constraintStart_toEndOf="@+id/button_pop_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/button_add_red" />
+</androidx.constraintlayout.widget.ConstraintLayout>
