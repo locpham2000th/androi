@@ -14,6 +14,7 @@
         android:theme="@style/Theme.HomeWork">
         <activity
             android:name=".DetailActivity"
+            android:label="Detail"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

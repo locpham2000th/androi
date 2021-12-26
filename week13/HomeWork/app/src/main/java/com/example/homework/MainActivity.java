@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity{
 //        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 //        ft.add(R.id.list_fragment,listFragment);
 //        ft.commit();
-        context = this;
+        context = MainActivity.this;
         recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
